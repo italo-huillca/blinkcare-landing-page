@@ -1,7 +1,7 @@
 'use client'
 
 import { FaExclamationTriangle, FaEyeSlash, FaFire, FaHeadSideCough, FaBrain } from 'react-icons/fa'
-import { MdRemoveRedEye, MdTired } from 'react-icons/md'
+import { MdRemoveRedEye } from 'react-icons/md'
 
 export default function FatigaVisual() {
   return (
@@ -193,7 +193,7 @@ export default function FatigaVisual() {
             <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all border-l-4 border-gray-500">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
-                  <MdTired className="text-gray-600 text-xl" />
+                  <FaEyeSlash className="text-gray-600 text-xl" />
                 </div>
                 <div>
                   <h4 className="font-bold text-lg text-gray-900 mb-2">Cansancio ocular</h4>
